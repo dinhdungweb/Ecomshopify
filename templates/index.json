@@ -370,7 +370,7 @@
         "@media (min-width: 1440px) {.hdt-row-grid {row-gap: 80px; }}"
       ],
       "settings": {
-        "collection": "new-arrival",
+        "collection": "cap",
         "product_list": [],
         "product_des": "1",
         "image_ratio": "asos",
