@@ -179,7 +179,7 @@
           "settings": {
             "display_by_block": true,
             "color_scheme": "scheme-67a7ca9f-3333-4245-b79f-2e9849d7e615",
-            "desktop_media_layout": "thumbnail_left",
+            "desktop_media_layout": "thumbnail_bottom",
             "media_size": "medium",
             "mobile_media_layout": "thumbnails",
             "enable_thumb_efect": true,
