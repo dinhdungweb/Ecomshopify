@@ -127,7 +127,7 @@
       "settings": {
         "header_layout": "logo_left",
         "header_fullwidth": true,
-        "header_height": 94,
+        "header_height": 75,
         "logo": "shopify://shop_images/capercaplogow.png",
         "logo_width": 80,
         "header_colors": "scheme-67a7ca9f-3333-4245-b79f-2e9849d7e615",
