@@ -140,7 +140,7 @@
               "type": "spacer",
               "settings": {
                 "direction": false,
-                "space_lg": 16,
+                "space_lg": 10,
                 "space_md": 10,
                 "space": 10
               },
