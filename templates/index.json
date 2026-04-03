@@ -118,6 +118,26 @@
             "padding_v_mb": 15
           },
           "blocks": {
+            "text_eHbNt6": {
+              "type": "text",
+              "name": "t:blocks.text.name",
+              "settings": {
+                "text": "<p>VỀ CHÚNG TÔI</p>",
+                "icon_source": "",
+                "icon": "car",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "text_size": "base",
+                "font_weight": "",
+                "text_color": "hdt-s-text",
+                "font_size_text_lg": 16,
+                "font_size_text_md": 14,
+                "font_size_text": 14,
+                "font_weight_text": 400,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
             "heading_mcK7nm": {
               "type": "heading",
               "settings": {
@@ -209,6 +229,7 @@
             }
           },
           "block_order": [
+            "text_eHbNt6",
             "heading_mcK7nm",
             "spacer_NqLNgK",
             "text_znxmih",
