@@ -168,16 +168,16 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "text": "#000000",
-          "text2": "#545454",
-          "background": "#ffffff",
+          "text": "#f2f2f2",
+          "text2": "#ffffff",
+          "background": "#000000",
           "background_gradient": "",
           "background2": "#f2f2f2",
           "button": "#000000",
           "button_label": "#ffffff",
           "button_border": "#000000",
           "secondary_button_label": "#000000",
-          "accent_color": "#db1215",
+          "accent_color": "#232323",
           "line_border": "#ebebeb",
           "overlay": "#000000",
           "pr_text": "#000000",
