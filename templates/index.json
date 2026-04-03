@@ -114,8 +114,8 @@
             "align_center": true,
             "padding_h": 30,
             "padding_v": 0,
-            "padding_h_mb": 15,
-            "padding_v_mb": 15
+            "padding_h_mb": 0,
+            "padding_v_mb": 0
           },
           "blocks": {
             "text_eHbNt6": {
