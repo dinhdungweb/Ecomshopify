@@ -275,6 +275,203 @@
         "padding_rate": 75
       }
     },
+    "image_text_FpyU4n": {
+      "type": "image_text",
+      "blocks": {
+        "image_text_col_k4HBnX": {
+          "type": "_image-text-col",
+          "settings": {
+            "alignment": "left",
+            "alignment_mb": "left",
+            "align_center": true,
+            "padding_h": 30,
+            "padding_v": 0,
+            "padding_h_mb": 0,
+            "padding_v_mb": 0
+          },
+          "blocks": {
+            "text_BK4GG8": {
+              "type": "text",
+              "name": "t:blocks.text.name",
+              "settings": {
+                "text": "<p>ĐỐI TÁC</p>",
+                "icon_source": "",
+                "icon": "car",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "text_size": "base",
+                "font_weight": "normal",
+                "text_color": "hdt-text-secondary",
+                "font_size_text_lg": 16,
+                "font_size_text_md": 14,
+                "font_size_text": 14,
+                "font_weight_text": 400,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "spacer_JQ8YNg": {
+              "type": "spacer",
+              "name": "t:blocks.spacer.name",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "heading_jULGVR": {
+              "type": "heading",
+              "settings": {
+                "heading": "<h5><strong>Đối Tác CAPER VN</strong></h5>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "heading_size": "h4",
+                "font_weight": "",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading_md": 30,
+                "font_size_heading": 24,
+                "font_weight_heading": 600,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_3RjFyq": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 16,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "text_abrQNg": {
+              "type": "text",
+              "settings": {
+                "text": "<p>CAPERCAP chuyên thiết kế và sản xuất mũ theo yêu cầu cho doanh nghiệp, cửa hàng và cá nhân.</p><ul><li>Thành Lập : 2022</li><li>Trụ sở : C36-28 Geleximco C, P. Dương Nội, TP. Hà Nội</li><li>Sản xuất mũ nón</li></ul>",
+                "icon_source": "",
+                "icon": "car",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "text_size": "base",
+                "font_weight": "",
+                "text_color": "hdt-s-text",
+                "font_size_text_lg": 16,
+                "font_size_text_md": 14,
+                "font_size_text": 14,
+                "font_weight_text": 400,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "spacer_9qndE8": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "spacer_rPn3aJ": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "button_PaPmaF": {
+              "type": "button",
+              "settings": {
+                "label": "Đọc thêm",
+                "link": "#",
+                "open_in_new_tab": true,
+                "full_width": false,
+                "style_class": "solid",
+                "font_size": "m",
+                "font_weight": "normal",
+                "font_size_btn": 14,
+                "padding_btn": 30,
+                "min_width_btn": 100,
+                "min_width_dt_btn": 100,
+                "min_height_btn": 40,
+                "icon": "none",
+                "icon_position": "after",
+                "icon_height": 10,
+                "icon_spacing": 5
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_BK4GG8",
+            "spacer_JQ8YNg",
+            "heading_jULGVR",
+            "spacer_3RjFyq",
+            "text_abrQNg",
+            "spacer_9qndE8",
+            "spacer_rPn3aJ",
+            "button_PaPmaF"
+          ]
+        },
+        "image_text_column_qBG9ck": {
+          "type": "_image-text-column",
+          "settings": {
+            "height": 100,
+            "image_position": ""
+          },
+          "blocks": {
+            "image_masonry_iDM9kB": {
+              "type": "_image-masonry",
+              "settings": {
+                "column_start": 1,
+                "column_end": 13,
+                "row_start": 1,
+                "row_end": 13,
+                "img_effect": "none",
+                "b_effect": "none",
+                "rounded": "hdt-radius"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_masonry_iDM9kB"
+          ]
+        },
+        "image-text-heading": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "alignment": "center",
+            "row_gap": 15,
+            "margin_bottom": 30
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "image_text_col_k4HBnX",
+        "image_text_column_qBG9ck"
+      ],
+      "name": "t:sections.image_text.name",
+      "settings": {
+        "color_scheme": "",
+        "rounded": "none",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "padding_rate": 75
+      }
+    },
     "icon_box_pGVH8b": {
       "type": "icon-box",
       "blocks": {
@@ -690,6 +887,7 @@
   "order": [
     "banner_AWUhRn",
     "image_text_tAYwW6",
+    "image_text_FpyU4n",
     "icon_box_pGVH8b",
     "brands_AN9PUd"
   ]
