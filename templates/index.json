@@ -138,6 +138,17 @@
               },
               "blocks": {}
             },
+            "spacer_zPML3C": {
+              "type": "spacer",
+              "name": "t:blocks.spacer.name",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 50
+              },
+              "blocks": {}
+            },
             "heading_mcK7nm": {
               "type": "heading",
               "settings": {
@@ -230,6 +241,7 @@
           },
           "block_order": [
             "text_eHbNt6",
+            "spacer_zPML3C",
             "heading_mcK7nm",
             "spacer_NqLNgK",
             "text_znxmih",
