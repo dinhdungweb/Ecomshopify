@@ -52,7 +52,7 @@
       "name": "Top bar",
       "settings": {
         "color_scheme": "scheme-67a7ca9f-3333-4245-b79f-2e9849d7e615",
-        "show_line_separator": false,
+        "show_line_separator": true,
         "fullwidth": true
       }
     },
