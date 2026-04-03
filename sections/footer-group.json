@@ -22,8 +22,8 @@
             "image_sm": "shopify://shop_images/capercaplogow.png",
             "link_img": "",
             "image_w": 130,
-            "html_content": "<p>CAPERCAP chuyên thiết kế và sản xuất mũ theo yêu cầu cho doanh nghiệp, cửa hàng và cá nhân.</p><p><strong>Giờ làm việc:</strong> 08:30 - 18:00 (Thứ 2 - Thứ 7)</p><p><strong>Hỗ trợ trực tuyến:</strong> 24/7 qua email và mạng xã hội</p><p>C36-28 Geleximco C, P. Dương Nội, TP. Hà Nội</p><p><a href=\"tel:096.659.4999\">096.659.4999</a></p><p><a href=\"mailto:caperstorevn@gmail.com\">caperstorevn@gmail.com</a></p>",
-            "adding_border": true,
+            "html_content": "<p>CAPERCAP chuyên thiết kế và sản xuất</p><p></p><p> mũ theo yêu cầu </p><p>cho doanh nghiệp, cửa hàng và cá nhân.</p><p><strong>Giờ làm việc:</strong> 08:30 - 18:00 (Thứ 2 - Thứ 7)</p><p><strong>Hỗ trợ trực tuyến:</strong> 24/7 qua email và mạng xã hội</p><p>C36-28 Geleximco C, P. Dương Nội, TP. Hà Nội</p><p><a href=\"tel:096.659.4999\">096.659.4999</a></p><p><a href=\"mailto:caperstorevn@gmail.com\">caperstorevn@gmail.com</a></p>",
+            "adding_border": false,
             "btn_label": "",
             "btn_link": "",
             "btn_fw": "semibold",
@@ -31,7 +31,7 @@
             "socials_style": "outline",
             "socials_size": "medium",
             "padding_inner": "",
-            "custom_w_dk": "25"
+            "custom_w_dk": "30"
           }
         },
         "sections--20958099472688__8b1cf2b6-9e6b-4ace-85e5-e52ad96e7b43-menu-1": {
@@ -41,7 +41,7 @@
             "heading_menu": "Help",
             "menu": "main-menu",
             "padding_inner": "",
-            "custom_w_dk": "25"
+            "custom_w_dk": "20"
           }
         },
         "sections--20958099472688__8b1cf2b6-9e6b-4ace-85e5-e52ad96e7b43-menu-2": {
@@ -51,7 +51,7 @@
             "heading_menu": "Useful Links",
             "menu": "main-menu-1",
             "padding_inner": "",
-            "custom_w_dk": "25"
+            "custom_w_dk": "20"
           }
         },
         "sections--20958099472688__8b1cf2b6-9e6b-4ace-85e5-e52ad96e7b43-newsletter-1": {
@@ -66,7 +66,7 @@
             "agree_form": false,
             "content": "I agree with the terms and conditions",
             "padding_inner": "",
-            "custom_w_dk": "25"
+            "custom_w_dk": "30"
           }
         }
       },
