@@ -41,7 +41,7 @@
             "heading_menu": "Help",
             "menu": "main-menu",
             "padding_inner": "",
-            "custom_w_dk": "20"
+            "custom_w_dk": "22.5"
           }
         },
         "sections--20958099472688__8b1cf2b6-9e6b-4ace-85e5-e52ad96e7b43-menu-2": {
@@ -51,7 +51,7 @@
             "heading_menu": "Useful Links",
             "menu": "main-menu-1",
             "padding_inner": "",
-            "custom_w_dk": "20"
+            "custom_w_dk": "22.5"
           }
         },
         "sections--20958099472688__8b1cf2b6-9e6b-4ace-85e5-e52ad96e7b43-newsletter-1": {
@@ -66,7 +66,7 @@
             "agree_form": false,
             "content": "I agree with the terms and conditions",
             "padding_inner": "",
-            "custom_w_dk": "30"
+            "custom_w_dk": "25"
           }
         }
       },
