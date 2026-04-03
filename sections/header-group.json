@@ -110,14 +110,60 @@
         "only_click_icon": false,
         "header_mobile_colors": "scheme-2",
         "note_mobile": "<span class=\"hdt-inline-flex hdt-text-base hdt-font-medium\" style=\"color: rgb(var(--color-foreground));border-bottom: solid 1px rgb(var(--color-foreground));margin-bottom: 11px;\"><a href=\"https://demo-ecomus-global.myshopify.com/pages/contact-1\">Need help ?</a></span><span class=\"hdt-flex hdt-flex-col hdt-text-base hdt-font-normal\" style=\"line-height: 24px;\"><span>Address: 1234 Fashion Street, Suite 567,<br> New York, NY 10001 </span><span>Email: <b>info@fashionshop.com </b></span><span>Phone: <b>(212) 555-1234</b></span></span>",
-        "header_transparent": false,
+        "header_transparent": true,
         "header_transparent_colors": "scheme-1",
         "sticky_type": "on_scroll_up",
         "sticky_glass": false
       }
+    },
+    "top_bar_irB638": {
+      "type": "top-bar",
+      "blocks": {
+        "liquid_wTKHTc": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "Welcome customers to your store",
+            "hide": true
+          }
+        },
+        "text_qHxFa3": {
+          "type": "text",
+          "settings": {
+            "text1": "Spring sale discount off 50%",
+            "text2": "Summer sale discount off 70%",
+            "text3": "",
+            "icon_svg": "",
+            "adding_border": false,
+            "au_time": 3.5,
+            "pause_when_hover": false,
+            "hide": false
+          }
+        },
+        "cur_EQRAQg": {
+          "type": "cur",
+          "settings": {
+            "html": "",
+            "show_currency": true,
+            "show_language": true,
+            "hide": true
+          }
+        }
+      },
+      "block_order": [
+        "liquid_wTKHTc",
+        "text_qHxFa3",
+        "cur_EQRAQg"
+      ],
+      "name": "Top bar",
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": false,
+        "fullwidth": true
+      }
     }
   },
   "order": [
+    "top_bar_irB638",
     "header"
   ]
 }
