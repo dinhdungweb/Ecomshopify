@@ -30,7 +30,7 @@
             "socials_style": "outline",
             "socials_size": "medium",
             "padding_inner": "",
-            "custom_w_dk": "25"
+            "custom_w_dk": "30"
           }
         },
         "sections--20958099472688__8b1cf2b6-9e6b-4ace-85e5-e52ad96e7b43-menu-1": {
@@ -40,7 +40,7 @@
             "heading_menu": "Help",
             "menu": "main-menu",
             "padding_inner": "",
-            "custom_w_dk": "25"
+            "custom_w_dk": "20"
           }
         },
         "sections--20958099472688__8b1cf2b6-9e6b-4ace-85e5-e52ad96e7b43-menu-2": {
@@ -50,16 +50,16 @@
             "heading_menu": "Useful Links",
             "menu": "main-menu-1",
             "padding_inner": "",
-            "custom_w_dk": "25"
+            "custom_w_dk": "20"
           }
         },
         "sections--20958099472688__8b1cf2b6-9e6b-4ace-85e5-e52ad96e7b43-newsletter-1": {
           "type": "newsletter",
           "settings": {
             "border-column": false,
-            "heading_newsletter": "Sign Up for Email",
-            "text_newsletter": "<p>Sign up to get first dibs on new arrivals, sales, exclusive content, events and more!</p>",
-            "button_lb": "Subscribe",
+            "heading_newsletter": "Đăng Ký Nhận Tin",
+            "text_newsletter": "<p>Nhập email để nhận ưu đãi độc quyền, bộ sưu tập mới và các chương trình khuyến mãi sớm nhất từ CAPER.</p>",
+            "button_lb": "Đăng ký",
             "show_icon": true,
             "btn_fw": "semibold",
             "agree_form": false,
