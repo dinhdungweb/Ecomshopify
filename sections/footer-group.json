@@ -30,7 +30,7 @@
             "enable_social": true,
             "socials_style": "outline",
             "socials_size": "medium",
-            "padding_inner": "50px 0",
+            "padding_inner": "",
             "custom_w_dk": "30"
           }
         },
@@ -84,8 +84,8 @@
         "text_weight": "hdt-font-medium",
         "spacing_bt_heading": 30,
         "text_size": "hdt-text-base",
-        "padding-t-main": 40,
-        "padding-bt-main": 40,
+        "padding-t-main": 60,
+        "padding-bt-main": 62,
         "text_copR": "© [year] <span class=\"\">Caper</span>. All rights reserved.",
         "svg": "visa,paypal,master,american_express,diners_club",
         "height": 30,
