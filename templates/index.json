@@ -78,6 +78,191 @@
         "padding_rate": 49
       }
     },
+    "image_text_tAYwW6": {
+      "type": "image_text",
+      "blocks": {
+        "image_text_column_hNb6Mg": {
+          "type": "_image-text-column",
+          "settings": {
+            "height": 100,
+            "image_position": ""
+          },
+          "blocks": {
+            "image_masonry_FYfWNg": {
+              "type": "_image-masonry",
+              "settings": {
+                "column_start": 1,
+                "column_end": 13,
+                "row_start": 1,
+                "row_end": 13,
+                "img_effect": "none",
+                "b_effect": "none",
+                "rounded": "hdt-radius"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_masonry_FYfWNg"
+          ]
+        },
+        "image_text_col_i8extx": {
+          "type": "_image-text-col",
+          "settings": {
+            "alignment": "left",
+            "alignment_mb": "center",
+            "align_center": true,
+            "padding_h": 30,
+            "padding_v": 0,
+            "padding_h_mb": 15,
+            "padding_v_mb": 15
+          },
+          "blocks": {
+            "heading_mcK7nm": {
+              "type": "heading",
+              "settings": {
+                "heading": "<h5>Công Ty TNHH CAPER VN</h5>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "heading_size": "h4",
+                "font_weight": "",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading_md": 30,
+                "font_size_heading": 24,
+                "font_weight_heading": 600,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            },
+            "spacer_NqLNgK": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 16,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "text_znxmih": {
+              "type": "text",
+              "settings": {
+                "text": "<p>CAPERCAP chuyên thiết kế và sản xuất mũ theo yêu cầu cho doanh nghiệp, cửa hàng và cá nhân.</p>",
+                "icon_source": "",
+                "icon": "car",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "text_size": "base",
+                "font_weight": "",
+                "text_color": "hdt-s-text",
+                "font_size_text_lg": 16,
+                "font_size_text_md": 14,
+                "font_size_text": 14,
+                "font_weight_text": 400,
+                "letter_spacing_text": 0
+              },
+              "blocks": {}
+            },
+            "spacer_BCKP9E": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "countdown_UkT4NE": {
+              "type": "_countdown",
+              "settings": {
+                "color_scheme": "scheme-1",
+                "cd_style": "outline",
+                "rounded_full": false,
+                "space_item": 15,
+                "year": 2030,
+                "month": 4,
+                "day": 19,
+                "hour": 12,
+                "minute": 0,
+                "effect_cd": "rotate",
+                "uppercase": true,
+                "prepend_number": true,
+                "hide_on_complete": true,
+                "mess_complete": ""
+              },
+              "blocks": {}
+            },
+            "spacer_PbmgLd": {
+              "type": "spacer",
+              "settings": {
+                "direction": false,
+                "space_lg": 10,
+                "space_md": 10,
+                "space": 10
+              },
+              "blocks": {}
+            },
+            "button_94PA6W": {
+              "type": "button",
+              "settings": {
+                "label": "Shop now",
+                "link": "#",
+                "open_in_new_tab": true,
+                "full_width": false,
+                "style_class": "solid",
+                "font_size": "m",
+                "font_weight": "normal",
+                "font_size_btn": 14,
+                "padding_btn": 30,
+                "min_width_btn": 100,
+                "min_width_dt_btn": 100,
+                "min_height_btn": 40,
+                "icon": "none",
+                "icon_position": "after",
+                "icon_height": 10,
+                "icon_spacing": 5
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_mcK7nm",
+            "spacer_NqLNgK",
+            "text_znxmih",
+            "spacer_BCKP9E",
+            "countdown_UkT4NE",
+            "spacer_PbmgLd",
+            "button_94PA6W"
+          ]
+        },
+        "image-text-heading": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "alignment": "center",
+            "row_gap": 15,
+            "margin_bottom": 30
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "image_text_column_hNb6Mg",
+        "image_text_col_i8extx"
+      ],
+      "name": "t:sections.image_text.name",
+      "settings": {
+        "color_scheme": "",
+        "rounded": "none",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "padding_rate": 75
+      }
+    },
     "icon_box_pGVH8b": {
       "type": "icon-box",
       "blocks": {
@@ -385,6 +570,7 @@
   },
   "order": [
     "banner_AWUhRn",
+    "image_text_tAYwW6",
     "icon_box_pGVH8b"
   ]
 }
