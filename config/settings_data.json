@@ -30,7 +30,7 @@
     "spacing_grid_vertical": 30,
     "button_radius": 3,
     "input_radius": 3,
-    "block_radius": 20,
+    "block_radius": 0,
     "pr_card_radius": 0,
     "pr_media_radius": 10,
     "collection_card_radius": 10,
@@ -66,8 +66,7 @@
     "search_fullwidth": true,
     "search_quick_link": "quick-link-1",
     "search_quick_search": "",
-    "products_suggest": [
-    ],
+    "products_suggest": [],
     "currency_code_enabled": false,
     "auto_currency": false,
     "favicon": "shopify://shop_images/Favicon.png",
