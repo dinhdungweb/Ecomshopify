@@ -56,7 +56,7 @@
       ],
       "name": "t:sections.banner.name_video",
       "settings": {
-        "image_height": "full",
+        "image_height": "adapt_image",
         "fixed_height": 500,
         "image_height_mb": "fixed",
         "fixed_height_mb": 500,
