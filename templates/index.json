@@ -84,13 +84,14 @@
         "image_text_column_hNb6Mg": {
           "type": "_image-text-column",
           "settings": {
-            "height": 100,
+            "height": 80,
             "image_position": ""
           },
           "blocks": {
             "image_masonry_FYfWNg": {
               "type": "_image-masonry",
               "settings": {
+                "image": "shopify://shop_images/480889552_615452431341638_1220880211090116045_n.jpg",
                 "column_start": 1,
                 "column_end": 13,
                 "row_start": 1,
