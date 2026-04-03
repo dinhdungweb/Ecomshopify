@@ -140,7 +140,7 @@
               "type": "spacer",
               "settings": {
                 "direction": false,
-                "space_lg": 10,
+                "space_lg": 16,
                 "space_md": 10,
                 "space": 10
               },
@@ -149,11 +149,11 @@
             "text_znxmih": {
               "type": "text",
               "settings": {
-                "text": "<p>CAPERCAP chuyên thiết kế và sản xuất mũ theo yêu cầu cho doanh nghiệp, cửa hàng và cá nhân.</p>",
+                "text": "<p>CAPERCAP chuyên thiết kế và sản xuất mũ theo yêu cầu cho doanh nghiệp, cửa hàng và cá nhân.</p><ul><li>Thành Lập : 2022</li><li>Trụ sở : C36-28 Geleximco C, P. Dương Nội, TP. Hà Nội</li><li>Sản xuất mũ nón</li></ul>",
                 "icon_source": "",
                 "icon": "car",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
+                "hidden_br_mobile": true,
+                "hidden_on_mobile": true,
                 "text_size": "base",
                 "font_weight": "",
                 "text_color": "hdt-s-text",
@@ -175,26 +175,6 @@
               },
               "blocks": {}
             },
-            "countdown_UkT4NE": {
-              "type": "_countdown",
-              "settings": {
-                "color_scheme": "scheme-1",
-                "cd_style": "outline",
-                "rounded_full": false,
-                "space_item": 15,
-                "year": 2030,
-                "month": 4,
-                "day": 19,
-                "hour": 12,
-                "minute": 0,
-                "effect_cd": "rotate",
-                "uppercase": true,
-                "prepend_number": true,
-                "hide_on_complete": true,
-                "mess_complete": ""
-              },
-              "blocks": {}
-            },
             "spacer_PbmgLd": {
               "type": "spacer",
               "settings": {
@@ -208,7 +188,7 @@
             "button_94PA6W": {
               "type": "button",
               "settings": {
-                "label": "Shop now",
+                "label": "Đọc thêm",
                 "link": "#",
                 "open_in_new_tab": true,
                 "full_width": false,
@@ -233,7 +213,6 @@
             "spacer_NqLNgK",
             "text_znxmih",
             "spacer_BCKP9E",
-            "countdown_UkT4NE",
             "spacer_PbmgLd",
             "button_94PA6W"
           ]
