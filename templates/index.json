@@ -425,13 +425,14 @@
         "image_text_column_qBG9ck": {
           "type": "_image-text-column",
           "settings": {
-            "height": 100,
+            "height": 68,
             "image_position": ""
           },
           "blocks": {
             "image_masonry_iDM9kB": {
               "type": "_image-masonry",
               "settings": {
+                "image": "shopify://shop_images/imgtext_2_img.webp",
                 "column_start": 1,
                 "column_end": 13,
                 "row_start": 1,
