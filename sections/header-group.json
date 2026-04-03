@@ -137,7 +137,7 @@
         "menu_position": "center",
         "menu_size": "lg",
         "menu_weight": "medium",
-        "text_transform": false,
+        "text_transform": true,
         "dropdown_arrow": true,
         "active_link": true,
         "spacing_nav": 32,
