@@ -30,7 +30,7 @@
             "enable_social": true,
             "socials_style": "outline",
             "socials_size": "medium",
-            "padding_inner": "",
+            "padding_inner": "50px 0",
             "custom_w_dk": "30"
           }
         },
