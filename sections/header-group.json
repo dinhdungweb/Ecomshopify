@@ -9,32 +9,31 @@
  */
 {
   "type": "header",
-  "name": "t:sections.name_group.header",
+  "name": "Header Group",
   "sections": {
-    "top_bar_irB638": {
+    "top_bar_ahrXaE": {
       "type": "top-bar",
       "blocks": {
-        "liquid_wTKHTc": {
+        "liquid_6mFYdc": {
           "type": "liquid",
           "settings": {
-            "custom_liquid": "Welcome customers to your store",
+            "custom_liquid": "<span style=\"margin-inline-end: 2.9rem\">(+333) 123-1688<\/span>\n<span>sayhello@ecomus.com<\/span>",
             "hide": true
           }
         },
-        "text_qHxFa3": {
+        "text_MENrwj": {
           "type": "text",
           "settings": {
-            "text1": "Spring sale discount off 50%",
-            "text2": "Summer sale discount off 70%",
-            "text3": "",
-            "icon_svg": "",
-            "adding_border": false,
+            "text1": "Spring Fashion Sale. <a href=\"\/collections\" title=\"All collections\"><strong>Shop now[icon_arrow]<\/strong><\/a>",
+            "text2": "Spring sale discount off 50%",
+            "text3": "Time to refresh your wardrobe",
+            "adding_border": true,
             "au_time": 3.5,
-            "pause_when_hover": false,
+            "pause_when_hover": true,
             "hide": false
           }
         },
-        "cur_EQRAQg": {
+        "cur_XbTCzX": {
           "type": "cur",
           "settings": {
             "html": "",
@@ -45,14 +44,13 @@
         }
       },
       "block_order": [
-        "liquid_wTKHTc",
-        "text_qHxFa3",
-        "cur_EQRAQg"
+        "liquid_6mFYdc",
+        "text_MENrwj",
+        "cur_XbTCzX"
       ],
-      "name": "Top bar",
       "settings": {
         "color_scheme": "scheme-67a7ca9f-3333-4245-b79f-2e9849d7e615",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "fullwidth": true
       }
     },
@@ -76,8 +74,8 @@
           "settings": {
             "title": "Shop",
             "collection_list": [
-              "women",
-              "men"
+              "dresses",
+              "new-arrival"
             ],
             "image_ratio": "asos",
             "image_size": false,
@@ -94,10 +92,9 @@
             "product_list_title": "BEST SELLER",
             "product_list": [
               "jersey-thong-body",
-              "mini-crossbody-bag",
               "oversized-printed-t-shirt",
-              "regular-fit-cotton-shorts",
-              "relaxed-fit-jersey-shirt"
+              "analogue-resin-strap-a",
+              "boxy-t-shirt"
             ],
             "image_ratio": "asos",
             "image_size": true,
@@ -124,21 +121,24 @@
         "a503e0d7-367d-45ea-9298-fe6e14683f79",
         "46a3191f-a3ab-4661-a59b-167e0743a9e5"
       ],
+      "custom_css": [
+        ".hdt-slider__button {border-radius: 9999px;}"
+      ],
       "settings": {
         "header_layout": "logo_left",
         "header_fullwidth": true,
-        "header_height": 80,
-        "logo": "shopify://shop_images/capercaplogow.png",
-        "logo_width": 80,
-        "header_colors": "scheme-67a7ca9f-3333-4245-b79f-2e9849d7e615",
-        "main_menu": "main-menu-1",
+        "header_height": 94,
+        "logo": "shopify:\/\/shop_images\/logo-black2.svg",
+        "logo_width": 136,
+        "header_colors": "scheme-1",
+        "main_menu": "main-menu",
         "lazy_mn": true,
         "menu_position": "center",
         "menu_size": "lg",
         "menu_weight": "medium",
-        "text_transform": true,
+        "text_transform": false,
         "dropdown_arrow": true,
-        "active_link": false,
+        "active_link": true,
         "spacing_nav": 32,
         "open_event": "hover",
         "header_menu_colors": "",
@@ -146,24 +146,21 @@
         "enabled_compare": false,
         "enabled_wishlist": true,
         "header_height_mb": 64,
-        "logo_width_mb": 80,
-        "show_menu_mb": false,
-        "menu_categories": "",
+        "logo_width_mb": 110,
         "main_menu_mobile": "",
-        "show_img_categories": true,
         "lazy_mn_mb": true,
         "only_click_icon": false,
-        "header_mobile_colors": "scheme-67a7ca9f-3333-4245-b79f-2e9849d7e615",
-        "note_mobile": "",
-        "header_transparent": true,
-        "header_transparent_colors": "scheme-67a7ca9f-3333-4245-b79f-2e9849d7e615",
+        "header_mobile_colors": "scheme-2",
+        "note_mobile": "<span class=\"hdt-inline-flex hdt-text-base hdt-font-medium\" style=\"color: rgb(var(--color-foreground));border-bottom: solid 1px rgb(var(--color-foreground));margin-bottom: 11px;\"><a href=\"https:\/\/demo-ecomus-global.myshopify.com\/pages\/contact-1\">Need help ?<\/a><\/span><span class=\"hdt-flex hdt-flex-col hdt-text-base hdt-font-normal\" style=\"line-height: 24px;\"><span>Address: 1234 Fashion Street, Suite 567,<br> New York, NY 10001\u2028<\/span><span>Email: <b>info@fashionshop.com\u2028<\/b><\/span><span>Phone: <b>(212) 555-1234<\/b><\/span><\/span>",
+        "header_transparent": false,
+        "header_transparent_colors": "scheme-1",
         "sticky_type": "on_scroll_up",
         "sticky_glass": false
       }
     }
   },
   "order": [
-    "top_bar_irB638",
+    "top_bar_ahrXaE",
     "header"
   ]
 }
