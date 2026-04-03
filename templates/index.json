@@ -873,6 +873,7 @@
         "icon_block_n4fL3B",
         "icon_block_QnjyzU"
       ],
+      "disabled": true,
       "custom_css": [
         ".hdt-text-warry {line-height: 21.59px;}"
       ],
@@ -899,6 +900,195 @@
         "padding_bottom": 60,
         "padding_rate": 75
       }
+    },
+    "collections_list_manual_zkUYee": {
+      "type": "collections-list-manual",
+      "blocks": {
+        "collection_item_manual_JABwX4": {
+          "type": "_collection_item_manual",
+          "name": "Item",
+          "settings": {
+            "collection": "",
+            "title": "Collection name",
+            "collection_link": "",
+            "collection_des": "1",
+            "content_size": "xl",
+            "content_weight": "medium",
+            "text_transform": false,
+            "content_position": "center",
+            "content_padding": 30,
+            "column_width": "3",
+            "row_count": 1,
+            "tb_column_width": "6",
+            "tb_row_count": 1,
+            "mb_column_width": "1",
+            "mb_row_count": 1
+          },
+          "blocks": {}
+        },
+        "collection_item_manual_bDR6DE": {
+          "type": "_collection_item_manual",
+          "name": "Item",
+          "settings": {
+            "collection": "",
+            "title": "Collection name",
+            "collection_link": "",
+            "collection_des": "1",
+            "content_size": "xl",
+            "content_weight": "medium",
+            "text_transform": false,
+            "content_position": "center",
+            "content_padding": 30,
+            "column_width": "6",
+            "row_count": 1,
+            "tb_column_width": "6",
+            "tb_row_count": 1,
+            "mb_column_width": "1",
+            "mb_row_count": 1
+          },
+          "blocks": {}
+        },
+        "collection_item_manual_CgPEDG": {
+          "type": "_collection_item_manual",
+          "name": "Item",
+          "settings": {
+            "collection": "",
+            "title": "Collection name",
+            "collection_link": "",
+            "collection_des": "1",
+            "content_size": "xl",
+            "content_weight": "medium",
+            "text_transform": false,
+            "content_position": "center",
+            "content_padding": 30,
+            "column_width": "3",
+            "row_count": 1,
+            "tb_column_width": "6",
+            "tb_row_count": 1,
+            "mb_column_width": "1",
+            "mb_row_count": 1
+          },
+          "blocks": {}
+        },
+        "collection_item_manual_j3xDhC": {
+          "type": "_collection_item_manual",
+          "settings": {
+            "collection": "",
+            "title": "Collection name",
+            "collection_link": "",
+            "collection_des": "1",
+            "content_size": "xl",
+            "content_weight": "medium",
+            "text_transform": false,
+            "content_position": "center",
+            "content_padding": 30,
+            "column_width": "6",
+            "row_count": 1,
+            "tb_column_width": "6",
+            "tb_row_count": 1,
+            "mb_column_width": "1",
+            "mb_row_count": 1
+          },
+          "blocks": {}
+        },
+        "collection_item_manual_Qa76tj": {
+          "type": "_collection_item_manual",
+          "settings": {
+            "collection": "",
+            "title": "Collection name",
+            "collection_link": "",
+            "collection_des": "1",
+            "content_size": "xl",
+            "content_weight": "medium",
+            "text_transform": false,
+            "content_position": "center",
+            "content_padding": 30,
+            "column_width": "6",
+            "row_count": 1,
+            "tb_column_width": "6",
+            "tb_row_count": 1,
+            "mb_column_width": "1",
+            "mb_row_count": 1
+          },
+          "blocks": {}
+        },
+        "collection_item_manual_gqjBzz": {
+          "type": "_collection_item_manual",
+          "settings": {
+            "collection": "",
+            "title": "Collection name",
+            "collection_link": "",
+            "collection_des": "1",
+            "content_size": "xl",
+            "content_weight": "medium",
+            "text_transform": false,
+            "content_position": "center",
+            "content_padding": 30,
+            "column_width": "12",
+            "row_count": 1,
+            "tb_column_width": "6",
+            "tb_row_count": 1,
+            "mb_column_width": "1",
+            "mb_row_count": 1
+          },
+          "blocks": {}
+        },
+        "collection-manual": {
+          "type": "section-heading",
+          "static": true,
+          "settings": {
+            "alignment": "center",
+            "row_gap": 15,
+            "margin_bottom": 30
+          },
+          "blocks": {
+            "heading_eraLw6": {
+              "type": "heading",
+              "settings": {
+                "heading": "<h4>Collection list manual</h4>",
+                "hidden_br_mobile": false,
+                "hidden_on_mobile": false,
+                "line_height": "",
+                "heading_size": "h4",
+                "font_weight": "",
+                "text_color": "hdt-s-text",
+                "font_size_heading_lg": 50,
+                "font_size_heading_md": 30,
+                "font_size_heading": 24,
+                "font_weight_heading": 600,
+                "letter_spacing_heading": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_eraLw6"
+          ]
+        }
+      },
+      "block_order": [
+        "collection_item_manual_JABwX4",
+        "collection_item_manual_bDR6DE",
+        "collection_item_manual_CgPEDG",
+        "collection_item_manual_j3xDhC",
+        "collection_item_manual_Qa76tj",
+        "collection_item_manual_gqjBzz"
+      ],
+      "name": "t:sections.collection_list.name_manual",
+      "settings": {
+        "row_height": 390,
+        "row_height_tb": 390,
+        "row_height_mb": 250,
+        "space_items": "30",
+        "space_items_tb": "15",
+        "space_items_mb": "15",
+        "section_fullwidth": false,
+        "boxed_fullwidth": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_rate": 75
+      }
     }
   },
   "order": [
@@ -906,6 +1096,7 @@
     "image_text_tAYwW6",
     "image_text_FpyU4n",
     "image_gallery_manual_bc6yJC",
-    "icon_box_pGVH8b"
+    "icon_box_pGVH8b",
+    "collections_list_manual_zkUYee"
   ]
 }
