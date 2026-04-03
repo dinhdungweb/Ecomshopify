@@ -11,6 +11,52 @@
   "type": "header",
   "name": "t:sections.name_group.header",
   "sections": {
+    "top_bar_irB638": {
+      "type": "top-bar",
+      "blocks": {
+        "liquid_wTKHTc": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "Welcome customers to your store",
+            "hide": true
+          }
+        },
+        "text_qHxFa3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text1": "Spring sale discount off 50%",
+            "text2": "Summer sale discount off 70%",
+            "text3": "",
+            "icon_svg": "",
+            "adding_border": false,
+            "au_time": 3.5,
+            "pause_when_hover": false,
+            "hide": false
+          }
+        },
+        "cur_EQRAQg": {
+          "type": "cur",
+          "settings": {
+            "html": "",
+            "show_currency": true,
+            "show_language": true,
+            "hide": true
+          }
+        }
+      },
+      "block_order": [
+        "liquid_wTKHTc",
+        "text_qHxFa3",
+        "cur_EQRAQg"
+      ],
+      "name": "Top bar",
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": false,
+        "fullwidth": true
+      }
+    },
     "header": {
       "type": "header-inline",
       "blocks": {
@@ -114,51 +160,6 @@
         "header_transparent_colors": "scheme-1",
         "sticky_type": "on_scroll_up",
         "sticky_glass": false
-      }
-    },
-    "top_bar_irB638": {
-      "type": "top-bar",
-      "blocks": {
-        "liquid_wTKHTc": {
-          "type": "liquid",
-          "settings": {
-            "custom_liquid": "Welcome customers to your store",
-            "hide": true
-          }
-        },
-        "text_qHxFa3": {
-          "type": "text",
-          "settings": {
-            "text1": "Spring sale discount off 50%",
-            "text2": "Summer sale discount off 70%",
-            "text3": "",
-            "icon_svg": "",
-            "adding_border": false,
-            "au_time": 3.5,
-            "pause_when_hover": false,
-            "hide": false
-          }
-        },
-        "cur_EQRAQg": {
-          "type": "cur",
-          "settings": {
-            "html": "",
-            "show_currency": true,
-            "show_language": true,
-            "hide": true
-          }
-        }
-      },
-      "block_order": [
-        "liquid_wTKHTc",
-        "text_qHxFa3",
-        "cur_EQRAQg"
-      ],
-      "name": "Top bar",
-      "settings": {
-        "color_scheme": "",
-        "show_line_separator": false,
-        "fullwidth": true
       }
     }
   },
