@@ -11,6 +11,8 @@
   "current": {
     "purchase_code": "",
     "color_scheme_dialog": "scheme-1",
+    "color_background": "#000000",
+    "color_text": "#f2f2f2",
     "color_focus": "#d53a3d",
     "badge_new": "#48d4bb",
     "badge_soldout": "#f2f2f2",
