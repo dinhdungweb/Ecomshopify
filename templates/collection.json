@@ -50,6 +50,15 @@
     },
     "main": {
       "type": "main-collection",
+      "blocks": {
+        "filter_cYpd8t": {
+          "type": "filter",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "filter_cYpd8t"
+      ],
       "settings": {
         "product_des": "1",
         "image_ratio": "custom-pr",
@@ -64,7 +73,7 @@
         "paginate_pos": "center",
         "dis_pagination": 60,
         "enable_sorting": true,
-        "enable_filtering": true,
+        "enable_filtering": false,
         "price_behavior": "auto",
         "enable_num_cols_selector": true,
         "widget_heading": "Product categories",
