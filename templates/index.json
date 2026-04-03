@@ -27,75 +27,6 @@
             "alignment_mb": "center"
           },
           "blocks": {
-            "heading_AYFiRf": {
-              "type": "heading",
-              "settings": {
-                "heading": "<p>SALE OFF UP TO 70%</p>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "line_height": "",
-                "heading_size": "h5",
-                "font_weight": "",
-                "text_color": "hdt-s-text",
-                "font_size_heading_lg": 50,
-                "font_size_heading_md": 30,
-                "font_size_heading": 24,
-                "font_weight_heading": 600,
-                "letter_spacing_heading": 0
-              },
-              "blocks": {}
-            },
-            "text_4GUhR3": {
-              "type": "text",
-              "settings": {
-                "text": "<p>SS 2025 New Arrival</p>",
-                "icon_source": "",
-                "icon": "car",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "text_size": "4xl",
-                "font_weight": "",
-                "text_color": "hdt-s-text",
-                "font_size_text_lg": 16,
-                "font_size_text_md": 14,
-                "font_size_text": 14,
-                "font_weight_text": 400,
-                "letter_spacing_text": 0
-              },
-              "blocks": {}
-            },
-            "spacer_LXm7yJ": {
-              "type": "spacer",
-              "settings": {
-                "direction": false,
-                "space_lg": 50,
-                "space_md": 50,
-                "space": 50
-              },
-              "blocks": {}
-            },
-            "button_BytkJ8": {
-              "type": "button",
-              "settings": {
-                "label": "Shop now",
-                "link": "",
-                "open_in_new_tab": false,
-                "full_width": false,
-                "style_class": "solid",
-                "font_size": "m",
-                "font_weight": "normal",
-                "font_size_btn": 14,
-                "padding_btn": 30,
-                "min_width_btn": 100,
-                "min_width_dt_btn": 100,
-                "min_height_btn": 40,
-                "icon": "none",
-                "icon_position": "after",
-                "icon_height": 16,
-                "icon_spacing": 5
-              },
-              "blocks": {}
-            },
             "banner-media": {
               "type": "_media",
               "static": true,
@@ -107,12 +38,7 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "heading_AYFiRf",
-            "text_4GUhR3",
-            "spacer_LXm7yJ",
-            "button_BytkJ8"
-          ]
+          "block_order": []
         },
         "banner-heading": {
           "type": "section-heading",
