@@ -777,11 +777,11 @@
         "padding_rate": 75
       }
     },
-    "image_gallery_zYmQ6D": {
-      "type": "image-gallery",
+    "image_gallery_manual_bc6yJC": {
+      "type": "image-gallery-manual",
       "blocks": {
-        "gallery_item_dhA3mA": {
-          "type": "_gallery_item",
+        "image_gallery_manual_e4CJpj": {
+          "type": "_image-gallery_manual",
           "settings": {
             "image": "shopify://shop_images/1_12.png",
             "item_link": "",
@@ -789,26 +789,8 @@
           },
           "blocks": {}
         },
-        "gallery_item_9JFzb4": {
-          "type": "_gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/474681103_595659289987619_5137824599600424407_n.jpg",
-            "item_link": "",
-            "product_item": ""
-          },
-          "blocks": {}
-        },
-        "gallery_item_9UQm3F": {
-          "type": "_gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/481016590_616595754560639_3785621352663690981_n.jpg",
-            "item_link": "",
-            "product_item": ""
-          },
-          "blocks": {}
-        },
-        "gallery_item_wAQCDj": {
-          "type": "_gallery_item",
+        "image_gallery_manual_jg7QHA": {
+          "type": "_image-gallery_manual",
           "settings": {
             "image": "shopify://shop_images/1_3.png",
             "item_link": "",
@@ -816,8 +798,26 @@
           },
           "blocks": {}
         },
-        "gallery_item_KDX6HF": {
-          "type": "_gallery_item",
+        "image_gallery_manual_9AcwpR": {
+          "type": "_image-gallery_manual",
+          "settings": {
+            "image": "shopify://shop_images/481016590_616595754560639_3785621352663690981_n.jpg",
+            "item_link": "",
+            "product_item": ""
+          },
+          "blocks": {}
+        },
+        "image_gallery_manual_X7jEF8": {
+          "type": "_image-gallery_manual",
+          "settings": {
+            "image": "shopify://shop_images/474681103_595659289987619_5137824599600424407_n.jpg",
+            "item_link": "",
+            "product_item": ""
+          },
+          "blocks": {}
+        },
+        "image_gallery_manual_GbwEqa": {
+          "type": "_image-gallery_manual",
           "settings": {
             "image": "shopify://shop_images/480889552_615452431341638_1220880211090116045_n.jpg",
             "item_link": "",
@@ -825,8 +825,17 @@
           },
           "blocks": {}
         },
-        "gallery_item_3zrht6": {
-          "type": "_gallery_item",
+        "image_gallery_manual_f4HDh8": {
+          "type": "_image-gallery_manual",
+          "settings": {
+            "image": "shopify://shop_images/1_4.png",
+            "item_link": "",
+            "product_item": ""
+          },
+          "blocks": {}
+        },
+        "image_gallery_manual_taMrne": {
+          "type": "_image-gallery_manual",
           "settings": {
             "image": "shopify://shop_images/1_5.png",
             "item_link": "",
@@ -834,16 +843,7 @@
           },
           "blocks": {}
         },
-        "gallery_item_ji6jqn": {
-          "type": "_gallery_item",
-          "settings": {
-            "image": "shopify://shop_images/1_9.png",
-            "item_link": "",
-            "product_item": ""
-          },
-          "blocks": {}
-        },
-        "categories": {
+        "image-gallery-manual": {
           "type": "section-heading",
           "static": true,
           "settings": {
@@ -852,7 +852,7 @@
             "margin_bottom": 30
           },
           "blocks": {
-            "heading_YMQftE": {
+            "heading_iG8UkL": {
               "type": "heading",
               "settings": {
                 "heading": "<h4>Sản Phẩm Đã Sản Xuất</h4>",
@@ -872,150 +872,31 @@
             }
           },
           "block_order": [
-            "heading_YMQftE"
+            "heading_iG8UkL"
           ]
         }
       },
       "block_order": [
-        "gallery_item_dhA3mA",
-        "gallery_item_9JFzb4",
-        "gallery_item_9UQm3F",
-        "gallery_item_wAQCDj",
-        "gallery_item_KDX6HF",
-        "gallery_item_3zrht6",
-        "gallery_item_ji6jqn"
+        "image_gallery_manual_e4CJpj",
+        "image_gallery_manual_jg7QHA",
+        "image_gallery_manual_9AcwpR",
+        "image_gallery_manual_X7jEF8",
+        "image_gallery_manual_GbwEqa",
+        "image_gallery_manual_f4HDh8",
+        "image_gallery_manual_taMrne"
       ],
-      "name": "t:sections.gallery.name",
+      "name": "t:sections.gallery.name_manual",
       "settings": {
         "image_ratio": "square",
         "image_size": true,
-        "image_action": "go_link",
-        "col_dk": "5",
-        "col_tb": "2",
-        "col_mb": "1",
+        "row_height": 280,
+        "row_height_tb": 230,
+        "row_height_mb": 180,
         "spacing_items": 10,
-        "navUI": false,
-        "btn_vi": "hover",
-        "nav_des": "default",
-        "nav_shape": "rounded",
-        "nav_size": "small",
-        "nav_pos": "on_border",
-        "nav_icon": "chrvon",
-        "dotUI": false,
-        "dots_pos": "outline",
         "section_fullwidth": false,
-        "boxed_fullwidth": false,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 52,
-        "padding_rate": 75
-      }
-    },
-    "brands_AN9PUd": {
-      "type": "brands",
-      "blocks": {
-        "logo_item_AYfGcy": {
-          "type": "_logo-item",
-          "settings": {
-            "url": ""
-          },
-          "blocks": {}
-        },
-        "logo_item_RHyiXx": {
-          "type": "_logo-item",
-          "settings": {
-            "url": ""
-          },
-          "blocks": {}
-        },
-        "logo_item_yxxFU3": {
-          "type": "_logo-item",
-          "settings": {
-            "url": ""
-          },
-          "blocks": {}
-        },
-        "logo_item_N4LiKp": {
-          "type": "_logo-item",
-          "settings": {
-            "url": ""
-          },
-          "blocks": {}
-        },
-        "logo_item_gAh39V": {
-          "type": "_logo-item",
-          "settings": {
-            "url": ""
-          },
-          "blocks": {}
-        },
-        "logo_item_TF7PD4": {
-          "type": "_logo-item",
-          "settings": {
-            "url": ""
-          },
-          "blocks": {}
-        },
-        "logo-list-heading": {
-          "type": "section-heading",
-          "static": true,
-          "settings": {
-            "alignment": "center",
-            "row_gap": 15,
-            "margin_bottom": 30
-          },
-          "blocks": {
-            "heading_qa6gh4": {
-              "type": "heading",
-              "settings": {
-                "heading": "<h4>Logo brands</h4>",
-                "hidden_br_mobile": false,
-                "hidden_on_mobile": false,
-                "line_height": "",
-                "heading_size": "h4",
-                "font_weight": "",
-                "text_color": "hdt-s-text",
-                "font_size_heading_lg": 50,
-                "font_size_heading_md": 30,
-                "font_size_heading": 24,
-                "font_weight_heading": 600,
-                "letter_spacing_heading": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading_qa6gh4"
-          ]
-        }
-      },
-      "block_order": [
-        "logo_item_AYfGcy",
-        "logo_item_RHyiXx",
-        "logo_item_yxxFU3",
-        "logo_item_N4LiKp",
-        "logo_item_gAh39V",
-        "logo_item_TF7PD4"
-      ],
-      "name": "t:sections.brands.label",
-      "settings": {
-        "color_scheme": "",
-        "border_item": false,
-        "url_target": "_self",
-        "navUI": false,
-        "btn_vi": "hover",
-        "nav_des": "default",
-        "nav_shape": "rounded",
-        "nav_size": "small",
-        "nav_pos": "on_border",
-        "nav_icon": "chrvon",
-        "dotUI": false,
-        "col_dk": "6",
-        "animated": "none",
-        "col_tb": "3",
-        "col_mb": "2",
-        "padding_top": 5,
-        "padding_bottom": 40,
         "padding_rate": 75
       }
     }
@@ -1025,7 +906,6 @@
     "image_text_tAYwW6",
     "image_text_FpyU4n",
     "icon_box_pGVH8b",
-    "image_gallery_zYmQ6D",
-    "brands_AN9PUd"
+    "image_gallery_manual_bc6yJC"
   ]
 }
