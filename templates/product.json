@@ -341,13 +341,6 @@
         "padding_bottom": 100,
         "padding_rate": 75
       }
-    },
-    "product_designer_t7q8Cc": {
-      "type": "product-designer",
-      "name": "Caper Product Designer",
-      "settings": {
-        "api_base_url": "https://your-backend-url.com/api"
-      }
     }
   },
   "order": [
@@ -356,7 +349,6 @@
     "tabs",
     "sidebar",
     "related-products",
-    "recently-products",
-    "product_designer_t7q8Cc"
+    "recently-products"
   ]
 }
