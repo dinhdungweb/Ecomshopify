@@ -335,7 +335,7 @@
         "sub_title": "Nhập địa chỉ email của bạn để nhận thông báo nếu sản phẩm có sẵn trở lại.",
         "please_notify": "Please notify me when this product becomes available",
         "email": "Email*",
-        "submit": "Submit",
+        "submit": "Gửi",
         "success": "We will notify you when the item is available"
       }
     },
@@ -629,7 +629,7 @@
     },
     "newsletter_form": {
       "email_placeholder": "Nhập địa chỉ email",
-      "submit": "Subscribe",
+      "submit": "Đăng ký",
       "subscribing": "Subscribing...",
       "confirmation": "Thanks for subscribing!",
       "error_exist": "Email already used for another account"
@@ -672,7 +672,7 @@
       "subtext": "Create your password to activate your account.",
       "password": "Password",
       "password_confirm": "Confirm password",
-      "submit": "Activate account",
+      "submit": "Kích hoạt tài khoản",
       "cancel": "Decline invitation"
     },
     "addresses": {
