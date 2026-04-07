@@ -670,8 +670,8 @@
     "activate_account": {
       "title": "Activate account",
       "subtext": "Create your password to activate your account.",
-      "password": "Password",
-      "password_confirm": "Confirm password",
+      "password": "Mật khẩu",
+      "password_confirm": "Xác nhận mật khẩu",
       "submit": "Kích hoạt tài khoản",
       "cancel": "Decline invitation"
     },
@@ -706,10 +706,10 @@
       "cancel": "Cancel",
       "create_account": "New customer? Create your account",
       "email": "Email",
-      "forgot_password": "Forgot your password?",
+      "forgot_password": "Quên mật khẩu?",
       "guest_continue": "Continue",
       "guest_title": "Continue as a guest",
-      "password": "Password",
+      "password": "Mật khẩu",
       "title": "Đăng nhập",
       "sign_in": "Đăng nhập",
       "submit": "Đăng nhập"
@@ -751,7 +751,7 @@
       "none": "You haven't placed any orders yet."
     },
     "recover_password": {
-      "title": "Reset your password",
+      "title": "Đặt lại mật khẩu",
       "subtext": "We will send you an email to reset your password",
       "success": "We've sent you an email with a link to update your password",
       "submit": "Đặt lại mật khẩu"
@@ -762,15 +762,15 @@
       "first_name": "First name",
       "last_name": "Last name",
       "email": "Email",
-      "password": "Password",
+      "password": "Mật khẩu",
       "submit": "Đăng ký",
       "login_here": "Already have an account? Log in here"
     },
     "reset_password": {
-      "title": "Reset account password",
-      "subtext": "Enter a new password",
-      "password": "Password",
-      "password_confirm": "Confirm password",
+      "title": "Đặt lại mật khẩu tài khoản",
+      "subtext": "Nhập mật khẩu",
+      "password": "Mật khẩu",
+      "password_confirm": "Xác nhận mật khẩu",
       "submit": "Đặt lại mật khẩu"
     }
   },
@@ -849,6 +849,9 @@
     },
     "page_titles": {
       "shopping_cart": "Giỏ hàng"
+    },
+    "attributes": {
+      "password": "mật khẩu"
     }
   }
 }
