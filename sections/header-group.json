@@ -75,7 +75,7 @@
         "text_transform": true,
         "dropdown_arrow": true,
         "active_link": true,
-        "spacing_nav": 24,
+        "spacing_nav": 25,
         "open_event": "hover",
         "header_menu_colors": "",
         "enabled_user": true,
