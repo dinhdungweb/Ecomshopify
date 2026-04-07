@@ -712,7 +712,7 @@
       "password": "Password",
       "title": "Log in",
       "sign_in": "Log in",
-      "submit": "Submit"
+      "submit": "Đăng nhập"
     },
     "order": {
       "title": "Order {{ name }}",
@@ -754,7 +754,7 @@
       "title": "Reset your password",
       "subtext": "We will send you an email to reset your password",
       "success": "We've sent you an email with a link to update your password",
-      "submit": "Reset password"
+      "submit": "Đặt lại mật khẩu"
     },
     "register": {
       "title": "Register",
@@ -763,7 +763,7 @@
       "last_name": "Last name",
       "email": "Email",
       "password": "Password",
-      "submit": "Register",
+      "submit": "Đăng ký",
       "login_here": "Already have an account? Log in here"
     },
     "reset_password": {
@@ -771,7 +771,7 @@
       "subtext": "Enter a new password",
       "password": "Password",
       "password_confirm": "Confirm password",
-      "submit": "Reset password"
+      "submit": "Đặt lại mật khẩu"
     }
   },
   "compare_page": {
