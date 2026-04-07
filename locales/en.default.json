@@ -477,7 +477,7 @@
       "checkout": "Check out",
       "empty": "Giỏ hàng của bạn trống",
       "return_shop": "Return to shop",
-      "empty_sub": "You may check out all the available products and buy some in the shop",
+      "empty_sub": "Bạn có thể xem tất cả các sản phẩm có sẵn và mua một số sản phẩm tại cửa hàng.",
       "cart_error": "There was an error while updating your cart. Please try again.",
       "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
