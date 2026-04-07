@@ -475,7 +475,7 @@
       "edit_note": "Edit Order Note",
       "placeholder_note": "How can we help you?",
       "checkout": "Check out",
-      "empty": "Your cart is empty",
+      "empty": "Giỏ hàng của bạn trống",
       "return_shop": "Return to shop",
       "empty_sub": "You may check out all the available products and buy some in the shop",
       "cart_error": "There was an error while updating your cart. Please try again.",
@@ -825,7 +825,8 @@
   "shopify": {
     "checkout": {
       "stock": {
-        "sold_out_label": "Hết hàng"
+        "sold_out_label": "Hết hàng",
+        "empty_cart_label": "Giỏ hàng của bạn trống"
       },
       "throttle": {
         "merchandise": {
