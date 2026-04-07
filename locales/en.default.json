@@ -250,7 +250,7 @@
       "badge_pre_order": "Pre order",
       "product_variants": "Product variants",
       "show_more_colors": "Show More Colors",
-      "sold_out": "Sold out",
+      "sold_out": "Hết hàng",
       "unavailable": "Unavailable",
       "available": "Availability:",
       "vendor": "Vendor:",
@@ -821,5 +821,17 @@
     "prev": "Previous",
     "next": "Next",
     "errorMsg": "The image cannot be loaded"
+  },
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "sold_out_label": "Hết hàng"
+      },
+      "throttle": {
+        "merchandise": {
+          "sold_out": "Hết hàng"
+        }
+      }
+    }
   }
 }
