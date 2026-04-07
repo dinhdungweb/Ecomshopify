@@ -908,8 +908,8 @@
           "type": "_collection_item_manual",
           "name": "Item",
           "settings": {
-            "collection": "",
-            "title": "Collection name",
+            "collection": "mu-wash",
+            "title": "Mũ Wash",
             "collection_link": "",
             "collection_des": "1",
             "content_size": "xl",
@@ -930,8 +930,8 @@
           "type": "_collection_item_manual",
           "name": "Item",
           "settings": {
-            "collection": "",
-            "title": "Collection name",
+            "collection": "mu-tron",
+            "title": "Mũ Trơn",
             "collection_link": "",
             "collection_des": "1",
             "content_size": "xl",
@@ -952,8 +952,8 @@
           "type": "_collection_item_manual",
           "name": "Item",
           "settings": {
-            "collection": "",
-            "title": "Collection name",
+            "collection": "caper-collection",
+            "title": "Caper Collection",
             "collection_link": "",
             "collection_des": "1",
             "content_size": "xl",
@@ -973,8 +973,8 @@
         "collection_item_manual_j3xDhC": {
           "type": "_collection_item_manual",
           "settings": {
-            "collection": "",
-            "title": "Collection name",
+            "collection": "aframe-hat",
+            "title": "Aframe Hat",
             "collection_link": "",
             "collection_des": "1",
             "content_size": "xl",
@@ -994,8 +994,8 @@
         "collection_item_manual_Qa76tj": {
           "type": "_collection_item_manual",
           "settings": {
-            "collection": "",
-            "title": "Collection name",
+            "collection": "baseball-hat",
+            "title": "Baseball Hat",
             "collection_link": "",
             "collection_des": "1",
             "content_size": "xl",
@@ -1015,8 +1015,92 @@
         "collection_item_manual_gqjBzz": {
           "type": "_collection_item_manual",
           "settings": {
-            "collection": "",
-            "title": "Collection name",
+            "collection": "dadhat-cap",
+            "title": "Dadhat Cap",
+            "collection_link": "",
+            "collection_des": "1",
+            "content_size": "xl",
+            "content_weight": "medium",
+            "text_transform": false,
+            "content_position": "center",
+            "content_padding": 30,
+            "column_width": "12",
+            "row_count": 1,
+            "tb_column_width": "6",
+            "tb_row_count": 1,
+            "mb_column_width": "1",
+            "mb_row_count": 1
+          },
+          "blocks": {}
+        },
+        "collection_item_manual_zLwXfF": {
+          "type": "_collection_item_manual",
+          "settings": {
+            "collection": "5-panel-hat",
+            "title": "5 Panel Hat",
+            "collection_link": "",
+            "collection_des": "1",
+            "content_size": "xl",
+            "content_weight": "medium",
+            "text_transform": false,
+            "content_position": "center",
+            "content_padding": 30,
+            "column_width": "12",
+            "row_count": 1,
+            "tb_column_width": "6",
+            "tb_row_count": 1,
+            "mb_column_width": "1",
+            "mb_row_count": 1
+          },
+          "blocks": {}
+        },
+        "collection_item_manual_hWUGqc": {
+          "type": "_collection_item_manual",
+          "settings": {
+            "collection": "bucket-hat",
+            "title": "Bucket Hat",
+            "collection_link": "",
+            "collection_des": "1",
+            "content_size": "xl",
+            "content_weight": "medium",
+            "text_transform": false,
+            "content_position": "center",
+            "content_padding": 30,
+            "column_width": "12",
+            "row_count": 1,
+            "tb_column_width": "6",
+            "tb_row_count": 1,
+            "mb_column_width": "1",
+            "mb_row_count": 1
+          },
+          "blocks": {}
+        },
+        "collection_item_manual_bKyUkq": {
+          "type": "_collection_item_manual",
+          "settings": {
+            "collection": "miki-hat",
+            "title": "Miki Hat",
+            "collection_link": "",
+            "collection_des": "1",
+            "content_size": "xl",
+            "content_weight": "medium",
+            "text_transform": false,
+            "content_position": "center",
+            "content_padding": 30,
+            "column_width": "12",
+            "row_count": 1,
+            "tb_column_width": "6",
+            "tb_row_count": 1,
+            "mb_column_width": "1",
+            "mb_row_count": 1
+          },
+          "blocks": {}
+        },
+        "collection_item_manual_F8pzPU": {
+          "type": "_collection_item_manual",
+          "settings": {
+            "collection": "beret-hat",
+            "title": "Beret Hat",
             "collection_link": "",
             "collection_des": "1",
             "content_size": "xl",
@@ -1072,7 +1156,11 @@
         "collection_item_manual_CgPEDG",
         "collection_item_manual_j3xDhC",
         "collection_item_manual_Qa76tj",
-        "collection_item_manual_gqjBzz"
+        "collection_item_manual_gqjBzz",
+        "collection_item_manual_zLwXfF",
+        "collection_item_manual_hWUGqc",
+        "collection_item_manual_bKyUkq",
+        "collection_item_manual_F8pzPU"
       ],
       "name": "t:sections.collection_list.name_manual",
       "settings": {
