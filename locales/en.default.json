@@ -331,7 +331,7 @@
         "unit_price": "Unit price"
       },
       "back_in_stock": {
-        "title": "Notify me if back in stock",
+        "title": "Thông báo cho tôi khi có hàng",
         "sub_title": "Enter your email address to be notified if the product becomes available again.",
         "please_notify": "Please notify me when this product becomes available",
         "email": "Email*",
