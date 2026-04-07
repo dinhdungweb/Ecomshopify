@@ -503,7 +503,7 @@
       "remove_item": "Remove",
       "login": {
         "title": "Have an account?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> to check out faster."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Đăng nhập</a> để thanh toán nhanh hơn."
       },
       "shipping_estimator": {
         "title": "Estimate Shipping",
@@ -700,7 +700,7 @@
       "delete": "Delete",
       "delete_confirm": "Are you sure you wish to delete this address?"
     },
-    "log_in": "Log in",
+    "log_in": "Đăng nhập",
     "log_out": "Log out",
     "login_page": {
       "cancel": "Cancel",
@@ -710,8 +710,8 @@
       "guest_continue": "Continue",
       "guest_title": "Continue as a guest",
       "password": "Password",
-      "title": "Log in",
-      "sign_in": "Log in",
+      "title": "Đăng nhập",
+      "sign_in": "Đăng nhập",
       "submit": "Đăng nhập"
     },
     "order": {
@@ -835,6 +835,16 @@
       },
       "order_summary": {
         "shopping_cart_label": "Giỏ hàng"
+      },
+      "payment": {
+        "credit_card_vaulting_sign_in_banner_button_label": "Đăng nhập"
+      },
+      "payment_gateway": {
+        "login_prompt": {
+          "no_access": {
+            "link": "Đăng nhập"
+          }
+        }
       }
     },
     "page_titles": {
