@@ -1,0 +1,589 @@
+{% comment %}
+  Section: Process Steps
+  Layout: Horizontal on desktop, Vertical on mobile
+  Each step is a block
+{% endcomment %}
+
+<style>
+  .process-section {
+    --clr-bg: {{ section.settings.background_color }};
+    --clr-accent: {{ section.settings.accent_color }};
+    --clr-text: {{ section.settings.text_color }};
+    --clr-step-bg: {{ section.settings.step_background_color }};
+    --clr-connector: {{ section.settings.connector_color }};
+    --clr-number: {{ section.settings.number_color }};
+    --clr-number-bg: {{ section.settings.number_bg_color }};
+
+    background-color: var(--clr-bg);
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+    overflow: hidden;
+  }
+
+  .process-section__inner {
+    max-width: {{ section.settings.container_width }}px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ── Header ── */
+  .process-section__header {
+    text-align: {{ section.settings.heading_alignment }};
+    margin-bottom: 56px;
+  }
+
+  .process-section__eyebrow {
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--clr-accent);
+    margin-bottom: 12px;
+  }
+
+  .process-section__heading {
+    font-family: '{{ section.settings.heading_font }}', Georgia, serif;
+    font-size: clamp(28px, 4vw, 48px);
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--clr-text);
+    margin: 0 0 16px;
+  }
+
+  .process-section__subheading {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--clr-text);
+    opacity: 0.65;
+    max-width: 520px;
+    {% if section.settings.heading_alignment == 'center' %}margin: 0 auto;{% endif %}
+  }
+
+  /* ── Steps Wrapper ── */
+  .process-steps {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0;
+    position: relative;
+  }
+
+  /* ── Single Step ── */
+  .process-step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 0 12px;
+    opacity: 0;
+    transform: translateY(24px);
+    animation: stepFadeIn 0.55s ease forwards;
+  }
+
+  {% for block in section.blocks %}
+    .process-step:nth-child({{ forloop.index }}) {
+      animation-delay: {{ forloop.index | times: 0.1 }}s;
+    }
+  {% endfor %}
+
+  @keyframes stepFadeIn {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── Connector line (desktop) ── */
+  .process-step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 32px;
+    left: calc(50% + 32px);
+    width: calc(100% - 64px);
+    height: 2px;
+    background: linear-gradient(
+      90deg,
+      var(--clr-connector) 60%,
+      transparent 100%
+    );
+    z-index: 0;
+  }
+
+  /* ── Number bubble ── */
+  .process-step__number {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--clr-number-bg);
+    color: var(--clr-number);
+    font-family: 'DM Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 0 6px var(--clr-bg), 0 0 0 8px var(--clr-connector);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .process-step:hover .process-step__number {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 6px var(--clr-bg), 0 0 0 8px var(--clr-accent);
+  }
+
+  /* ── Icon (optional) ── */
+  .process-step__icon {
+    font-size: 28px;
+    line-height: 1;
+    position: absolute;
+    top: -14px;
+    right: -10px;
+    background: var(--clr-bg);
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  /* ── Card body ── */
+  .process-step__card {
+    margin-top: 20px;
+    background: var(--clr-step-bg);
+    border-radius: 16px;
+    padding: 24px 20px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+
+  .process-step:hover .process-step__card {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.10);
+  }
+
+  .process-step__title {
+    font-family: '{{ section.settings.heading_font }}', Georgia, serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--clr-text);
+    margin: 0 0 8px;
+    line-height: 1.3;
+  }
+
+  .process-step__description {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--clr-text);
+    opacity: 0.6;
+    margin: 0;
+  }
+
+  .process-step__tag {
+    display: inline-block;
+    margin-top: 14px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--clr-accent);
+    background: color-mix(in srgb, var(--clr-accent) 10%, transparent);
+    border-radius: 999px;
+    padding: 4px 12px;
+  }
+
+  /* ── CTA ── */
+  .process-section__cta {
+    text-align: center;
+    margin-top: 52px;
+  }
+
+  .process-section__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--clr-accent);
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: opacity 0.2s, transform 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+
+  .process-section__btn:hover {
+    opacity: 0.88;
+    transform: translateY(-2px);
+  }
+
+  .process-section__btn svg {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.2s;
+  }
+
+  .process-section__btn:hover svg {
+    transform: translateX(3px);
+  }
+
+  /* ══════════════════════════════════════
+     MOBILE — vertical layout
+  ══════════════════════════════════════ */
+  @media (max-width: 767px) {
+    .process-steps {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .process-step {
+      flex-direction: row;
+      align-items: flex-start;
+      text-align: left;
+      padding: 0;
+      gap: 20px;
+    }
+
+    /* Vertical connector */
+    .process-step:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 64px;
+      left: 31px;
+      width: 2px;
+      height: calc(100% - 24px);
+      background: linear-gradient(
+        180deg,
+        var(--clr-connector) 60%,
+        transparent 100%
+      );
+    }
+
+    .process-step__number {
+      flex-shrink: 0;
+    }
+
+    .process-step__card {
+      margin-top: 0;
+      flex: 1;
+      margin-bottom: 28px;
+    }
+  }
+
+  /* Google Fonts import */
+  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,wght@0,700;1,700&family=Playfair+Display:wght@700&family=Syne:wght@700;800&display=swap');
+</style>
+
+<section
+  class="process-section"
+  id="section-{{ section.id }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="process-steps"
+>
+  <div class="process-section__inner">
+
+    {%- if section.settings.eyebrow != blank
+        or section.settings.heading != blank
+        or section.settings.subheading != blank -%}
+      <div class="process-section__header">
+        {%- if section.settings.eyebrow != blank -%}
+          <span class="process-section__eyebrow">{{ section.settings.eyebrow }}</span>
+        {%- endif -%}
+
+        {%- if section.settings.heading != blank -%}
+          <h2 class="process-section__heading">{{ section.settings.heading }}</h2>
+        {%- endif -%}
+
+        {%- if section.settings.subheading != blank -%}
+          <p class="process-section__subheading">{{ section.settings.subheading }}</p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+      <div class="process-steps" role="list">
+        {%- for block in section.blocks -%}
+          <div
+            class="process-step"
+            role="listitem"
+            {{ block.shopify_attributes }}
+          >
+            <div class="process-step__number" aria-hidden="true">
+              {%- if block.settings.icon != blank -%}
+                <span class="process-step__icon">{{ block.settings.icon }}</span>
+              {%- endif -%}
+              {{ forloop.index | prepend: '0' | slice: -2, 2 }}
+            </div>
+
+            <div class="process-step__card">
+              {%- if block.settings.title != blank -%}
+                <h3 class="process-step__title">{{ block.settings.title }}</h3>
+              {%- endif -%}
+
+              {%- if block.settings.description != blank -%}
+                <p class="process-step__description">{{ block.settings.description }}</p>
+              {%- endif -%}
+
+              {%- if block.settings.tag != blank -%}
+                <span class="process-step__tag">{{ block.settings.tag }}</span>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.button_label != blank -%}
+      <div class="process-section__cta">
+        <a
+          href="{{ section.settings.button_url }}"
+          class="process-section__btn"
+          {% if section.settings.button_url == blank %}role="button"{% endif %}
+        >
+          {{ section.settings.button_label }}
+          <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    {%- endif -%}
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Quy trình",
+  "tag": "section",
+  "class": "section-process",
+  "max_blocks": 8,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Tiêu đề"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow text",
+      "default": "Cách thức hoạt động"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Tiêu đề chính",
+      "default": "Quy trình đơn giản, kết quả xuất sắc"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Mô tả",
+      "default": "Chúng tôi đơn giản hóa mọi bước để bạn có trải nghiệm tốt nhất."
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Căn chỉnh tiêu đề",
+      "options": [
+        { "value": "left", "label": "Trái" },
+        { "value": "center", "label": "Giữa" },
+        { "value": "right", "label": "Phải" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "heading_font",
+      "label": "Font tiêu đề",
+      "options": [
+        { "value": "Fraunces", "label": "Fraunces (Serif)" },
+        { "value": "Playfair Display", "label": "Playfair Display (Serif)" },
+        { "value": "Syne", "label": "Syne (Sans)" },
+        { "value": "DM Sans", "label": "DM Sans" }
+      ],
+      "default": "Fraunces"
+    },
+    {
+      "type": "header",
+      "content": "Nút CTA"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Nhãn nút",
+      "default": "Bắt đầu ngay"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Đường dẫn nút"
+    },
+    {
+      "type": "header",
+      "content": "Màu sắc"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Nền section",
+      "default": "#F8F6F2"
+    },
+    {
+      "type": "color",
+      "id": "step_background_color",
+      "label": "Nền card bước",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Màu chữ",
+      "default": "#1A1A1A"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Màu nhấn (accent)",
+      "default": "#2563EB"
+    },
+    {
+      "type": "color",
+      "id": "connector_color",
+      "label": "Màu đường nối",
+      "default": "#D1D5DB"
+    },
+    {
+      "type": "color",
+      "id": "number_color",
+      "label": "Màu số thứ tự",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "number_bg_color",
+      "label": "Nền số thứ tự",
+      "default": "#2563EB"
+    },
+    {
+      "type": "header",
+      "content": "Khoảng cách"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding trên",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding dưới",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "label": "Chiều rộng container",
+      "min": 800,
+      "max": 1600,
+      "step": 40,
+      "unit": "px",
+      "default": 1200
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Bước",
+      "settings": [
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Biểu tượng (emoji)",
+          "info": "Nhập 1 emoji, ví dụ: 🎯",
+          "default": "✦"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Tiêu đề bước",
+          "default": "Đặt hàng"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Mô tả bước",
+          "default": "Chọn sản phẩm và hoàn tất đơn hàng của bạn chỉ trong vài giây."
+        },
+        {
+          "type": "text",
+          "id": "tag",
+          "label": "Nhãn phụ (tag)",
+          "info": "Ví dụ: Bước 1 · 2 phút"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Quy trình",
+      "blocks": [
+        {
+          "type": "step",
+          "settings": {
+            "icon": "🛒",
+            "title": "Chọn sản phẩm",
+            "description": "Duyệt qua catalogue và thêm sản phẩm yêu thích vào giỏ hàng của bạn.",
+            "tag": "Bước 1 · 2 phút"
+          }
+        },
+        {
+          "type": "step",
+          "settings": {
+            "icon": "📋",
+            "title": "Điền thông tin",
+            "description": "Cung cấp địa chỉ giao hàng và chọn phương thức thanh toán phù hợp.",
+            "tag": "Bước 2 · 3 phút"
+          }
+        },
+        {
+          "type": "step",
+          "settings": {
+            "icon": "💳",
+            "title": "Thanh toán",
+            "description": "Hoàn tất thanh toán an toàn qua nhiều phương thức đa dạng.",
+            "tag": "Bước 3 · 1 phút"
+          }
+        },
+        {
+          "type": "step",
+          "settings": {
+            "icon": "🚚",
+            "title": "Nhận hàng",
+            "description": "Đơn hàng được giao tận nơi trong thời gian cam kết, có thể theo dõi trực tuyến.",
+            "tag": "Bước 4 · 1-3 ngày"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
