@@ -159,10 +159,10 @@
     border: 1px solid rgba(0,0,0,0.06);
   }
 
-  .process-step:hover .process-step__card {
+  {% comment %} .process-step:hover .process-step__card {
     transform: translateY(-4px);
     box-shadow: 0 12px 32px rgba(0,0,0,0.10);
-  }
+  } {% endcomment %}
 
   .process-step__title {
     font-family: '{{ section.settings.heading_font }}', Georgia, serif;
@@ -225,9 +225,6 @@
     transition: transform 0.2s;
   }
 
-  .process-section__btn:hover svg {
-    transform: translateX(3px);
-  }
 
   /* ══════════════════════════════════════
      MOBILE — vertical layout
