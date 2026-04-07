@@ -54,6 +54,8 @@
         "show_cart_note": true,
         "show_gift_wrap": true,
         "show_shipping_estimator": true,
+        "show_cart_discount": true,
+        "discount_error_message": "Enter a valid discount code",
         "heading": "You may also like",
         "product_list": [
           "analogue-resin-strap-a",
@@ -73,7 +75,7 @@
           "settings": {
             "title": "Shop",
             "collection_list": [],
-            "menu_categories": "browes-all-categories",
+            "menu_categories": "",
             "link": ""
           }
         },
@@ -109,6 +111,7 @@
         "account_KBmadz",
         "search_wxK4Le"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_txt": true
