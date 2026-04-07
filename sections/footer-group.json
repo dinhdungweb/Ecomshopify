@@ -38,7 +38,7 @@
           "type": "menu",
           "settings": {
             "border-column": false,
-            "heading_menu": "Help",
+            "heading_menu": "Công Ty",
             "menu": "main-menu",
             "padding_inner": "",
             "custom_w_dk": "22.5"
@@ -48,7 +48,7 @@
           "type": "menu",
           "settings": {
             "border-column": false,
-            "heading_menu": "Useful Links",
+            "heading_menu": "Dịch Vụ Khách Hàng",
             "menu": "main-menu-1",
             "padding_inner": "",
             "custom_w_dk": "22.5"
