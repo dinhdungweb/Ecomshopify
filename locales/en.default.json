@@ -518,7 +518,7 @@
         "free": "FREE"
       },
       "mini_cart": {
-        "title": "Shopping cart",
+        "title": "Giỏ hàng",
         "close_cart": "Close Cart"
       },
       "tool": {
@@ -832,7 +832,13 @@
         "merchandise": {
           "sold_out": "Hết hàng"
         }
+      },
+      "order_summary": {
+        "shopping_cart_label": "Giỏ hàng"
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Giỏ hàng"
     }
   }
 }
