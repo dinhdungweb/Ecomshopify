@@ -100,6 +100,7 @@
             },
             "product_extra_link_n7Vykn": {
               "type": "_product-extra-link",
+              "disabled": true,
               "settings": {},
               "blocks": {
                 "compare_color_Lz6TAK": {
@@ -138,6 +139,7 @@
             },
             "delivery_return_jwgTaG": {
               "type": "_delivery_return",
+              "disabled": true,
               "settings": {
                 "icon_delivery": "ship",
                 "content_devivery": "<p>Estimate delivery times:<strong> 12-26 days</strong> (International),<strong> 3-6 days</strong> (United States).</p>",
@@ -308,6 +310,7 @@
     },
     "recently-products": {
       "type": "recently-products",
+      "disabled": true,
       "settings": {
         "sec_heading": "Recently Viewed",
         "heading_tag": "h3",
