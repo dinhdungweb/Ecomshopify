@@ -1177,6 +1177,73 @@
         "padding_bottom": 0,
         "padding_rate": 75
       }
+    },
+    "process_teps_q7dQpU": {
+      "type": "process-teps",
+      "blocks": {
+        "step_qD3GYw": {
+          "type": "step",
+          "settings": {
+            "icon": "",
+            "title": "Tư vấn",
+            "description": "Tư vấn và lên mockup sản phẩm trong ngày",
+            "tag": "Trong ngày"
+          }
+        },
+        "step_gEQUP6": {
+          "type": "step",
+          "settings": {
+            "icon": "",
+            "title": "Ra mẫu",
+            "description": "Không tính phí lên mẫu với đơn hàng có số lượng từ 50pcs",
+            "tag": "2 - 5 ngày"
+          }
+        },
+        "step_CYJjUB": {
+          "type": "step",
+          "settings": {
+            "icon": "",
+            "title": "Ký hợp đồng",
+            "description": "Ký hợp đồng đặt cọc đơn hàng",
+            "tag": "30 phút - 1h"
+          }
+        },
+        "step_3kPMYF": {
+          "type": "step",
+          "settings": {
+            "icon": "",
+            "title": "Sản xuất",
+            "description": "Thời gian sản xuất tùy thuộc vào số lượng đơn hàng",
+            "tag": "Tùy thuộc sL đơn hàng"
+          }
+        }
+      },
+      "block_order": [
+        "step_qD3GYw",
+        "step_gEQUP6",
+        "step_CYJjUB",
+        "step_3kPMYF"
+      ],
+      "name": "Quy trình",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Quy trình đơn giản, kết quả xuất sắc",
+        "subheading": "Chúng tôi đơn giản hóa mọi bước để bạn có trải nghiệm tốt nhất.",
+        "heading_alignment": "center",
+        "heading_font": "Fraunces",
+        "button_label": "Nhận tư vấn ngay",
+        "button_url": "",
+        "background_color": "#FFFFFF",
+        "step_background_color": "#f2f2f2",
+        "text_color": "#1A1A1A",
+        "accent_color": "#232323",
+        "connector_color": "#D1D5DB",
+        "number_color": "#FFFFFF",
+        "number_bg_color": "#232323",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "container_width": 1600
+      }
     }
   },
   "order": [
@@ -1185,6 +1252,7 @@
     "image_text_FpyU4n",
     "image_gallery_manual_bc6yJC",
     "icon_box_pGVH8b",
-    "collections_list_manual_zkUYee"
+    "collections_list_manual_zkUYee",
+    "process_teps_q7dQpU"
   ]
 }
