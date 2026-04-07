@@ -476,7 +476,7 @@
       "placeholder_note": "How can we help you?",
       "checkout": "Check out",
       "empty": "Giỏ hàng của bạn trống",
-      "return_shop": "Return to shop",
+      "return_shop": "Quay lại cửa hàng",
       "empty_sub": "Bạn có thể xem tất cả các sản phẩm có sẵn và mua một số sản phẩm tại cửa hàng.",
       "cart_error": "There was an error while updating your cart. Please try again.",
       "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
