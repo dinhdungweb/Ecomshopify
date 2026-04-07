@@ -153,7 +153,7 @@
             "heading_mcK7nm": {
               "type": "heading",
               "settings": {
-                "heading": "<h5><strong>Công Ty TNHH CAPER VN</strong></h5>",
+                "heading": "<h5>Công Ty TNHH CAPER VN</h5>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
@@ -325,7 +325,7 @@
             "heading_jULGVR": {
               "type": "heading",
               "settings": {
-                "heading": "<h5><strong>Đối Tác CAPER VN</strong></h5>",
+                "heading": "<h5>Đối Tác CAPER VN</h5>",
                 "hidden_br_mobile": false,
                 "hidden_on_mobile": false,
                 "line_height": "",
