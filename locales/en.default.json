@@ -10,19 +10,19 @@
 {
   "general": {
     "meta": {
-      "tag": "Tagged",
-      "page": "Page"
+      "tag": "Đã gắn thẻ",
+      "page": "Trang"
     },
     "password_page": {
-      "login_form_heading": "Enter password",
-      "login_password_button": "Enter using password",
-      "login_form_password_label": "Password",
-      "login_form_password_placeholder": "Your password",
-      "login_form_error": "Wrong password!",
-      "login_form_submit": "Submit",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}",
-      "notify_submit": "Notify me"
+      "login_form_heading": "Nhập mật khẩu",
+      "login_password_button": "Nhập bằng mật khẩu",
+      "login_form_password_label": "Mật khẩu",
+      "login_form_password_placeholder": "Mật khẩu của bạn",
+      "login_form_error": "Mật khẩu sai!",
+      "login_form_submit": "Đăng nhập",
+      "admin_link_html": "Bạn có phải chủ cửa hàng không? <a href=\"/admin\" class=\"link underlined-link\">Đăng nhập</a>",
+      "powered_by_shopify_html": "Vận hành bởi {{ shopify }}",
+      "notify_submit": "Thông báo cho tôi"
     },
     "social": {
       "shares": {
@@ -57,41 +57,41 @@
         "spotify": "Spotify"
       }
     },
-    "continue_shopping": "Continue shopping",
+    "continue_shopping": "Tiếp tục mua hàng",
     "pagination": {
       "label": "Pagination",
-      "page": "Go to page {{ number }}",
-      "next": "Next page",
-      "previous": "Previous page",
-      "view_all": "View all",
-      "load_more": "Load more",
-      "load_more_articles": "Load more articles",
-      "load_more_products": "Load more"
+      "page": "Đi đến trang {{ number }}",
+      "next": "Trang tiếp",
+      "previous": "Trang trước",
+      "view_all": "Xem tất cả",
+      "load_more": "Xem thêm",
+      "load_more_articles": "Xem thêm bài viết",
+      "load_more_products": "Xem thêm"
     },
     "search": {
-      "title": "Search",
-      "search": "Search",
-      "search_our_site": "Search our site",
-      "placeholder_products": "Search product",
+      "title": "Tìm kiếm",
+      "search": "Tìm kiếm",
+      "search_our_site": "Tìm kiếm trên trang ",
+      "placeholder_products": "Tìm kiếm sản phẩm",
       "reset": "Clear search term",
-      "quicklink_title": "Quick link",
+      "quicklink_title": "Liên kết nhanh",
       "content_title": "Need some inspiration?",
-      "search_text": "Search",
+      "search_text": "Tìm kiếm",
       "no_product_results": "No products were found matching your selection.",
-      "pages_type": "Page",
+      "pages_type": "Trang",
       "results_with_term": {
-        "zero": "0 Search Results for: \"{{ terms }}\"",
-        "one": "1 Search Result for: \"{{ terms }}\"",
-        "other": "{{ count }} Search Results for: \"{{ terms }}\""
+        "zero": "0 kết quả tìm kiếm cho: \"{{ terms }}\"",
+        "one": "1 kết quả tìm kiếm cho: \"{{ terms }}\"",
+        "other": "{{ count }} kết quả tìm kiếm cho: \"{{ terms }}\""
       },
-      "all_categories": "All categories",
-      "quick_search": "Quick search",
-      "suggestions": "Suggestions"
+      "all_categories": "Tất cả danh mục",
+      "quick_search": "Tìm kiếm nhanh",
+      "suggestions": "Gợi ý"
     },
     "cart": {
-      "view": "View cart ({{ count }})",
-      "view_empty_cart": "View cart",
-      "item_added": "Item added to your cart"
+      "view": "Xem giỏ hàng ({{ count }})",
+      "view_empty_cart": "Xem giỏ hàng",
+      "item_added": "Sản phẩm đã thêm"
     },
     "wishlist": {
       "wishlist_page": "Your wishlist",
@@ -105,7 +105,7 @@
       "empty_info_wishlist": "You don't have any products in the wishlist yet. You will find a lot of interesting products on our \"Shop page\"."
     },
     "compare": {
-      "compare_text": "Compare",
+      "compare_text": "So sánh",
       "login_to_use_compare": "Log in to use Compare",
       "add_to_compare": "Add to Compare",
       "browse_compare": "Browse Compare"
@@ -117,7 +117,7 @@
       "name": "Slider"
     },
     "breadcrumb": {
-      "home": "Home"
+      "home": "Trang chủ"
     },
     "demos": {
       "view_all_demo": "View all demos",
